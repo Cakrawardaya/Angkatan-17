@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angkatan 17</title>
+    <!-- Standard Favicon -->
+    <link href="https://assets.onecompiler.app/42x4wv4cn/42zrkcptf/CAKRAWARDAYA_AKT17-transformed.png" rel="icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .header img {
+            max-width: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        caption {
+            text-align: left;
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://assets.onecompiler.app/42x4wv4cn/42zrkcptf/CAKRAWARDAYA_AKT17-transformed.png" alt="Logo Cakrawardaya">
+        <h1>Angkatan 17</h1>
+    </div>
+    <div class="container">
+        <table>
+            <caption>Struktur Pengurus</caption>
+            <tr>
+                <th>Jabatan</th>
+                <th>Nama</th>
+            </tr>
+            <tr><td>Pratama PA</td><td>Marchel Ari P.</td></tr>
+            <tr><td>Wapra PA</td><td>Benigno Yanuar H.A</td></tr>
+            <tr><td>Pratama PI</td><td>Galuh Candra K.</td></tr>
+            <tr><td>Wapra PI</td><td>-</td></tr>
+            <tr><td>Kerani PA</td><td>Bintang Erdian D.S</td></tr>
+            <tr><td>Kerani PI</td><td>1. Yolanda Cassanova R<br>2. Denis Natalia S<br>3. Kartika Ayudya P.</td></tr>
+            <tr><td>Juang PA</td><td>1. Satrio Rezky Ridho S<br>2. Munif Widya A.</td></tr>
+            <tr><td>Juang PI</td><td>1. Kirana Mei C.<br>2. Radhisti Ayu Adina P.</td></tr>
+        </table>
+
+        <table>
+            <caption>Daftar Anggota</caption>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+            </tr>
+            <script>
+                const anggota = [
+                    "Keyla Rahma P. H", "Shindy Aulia", "Defrika Fadila A.", "Reffa Aprilia D.",
+                    "Cornelius Rio F.", "Galih Hanandianto", "Auerella Isadora S.", "Syafa Nur A.",
+                    "Kheyzha Kanaya Putri P.", "Rafael Ridho Saputra", "Marvel Aniko Kristian", 
+                    "Cindy Devita Anggraini", "Jesisca Aprilia Anggraini", "Nailah Kamal. I", 
+                    "Arumy Sagitha M.", "Alexandria Trixie", "Fitri Arum Dewi P.", 
+                    "Aurel Nayya Regina S.", "Bilqisinda Janisa Azahra", "Mayzal Alif N.",
+                    "Shabrina Ayu A.", "Mutiara Wevi A.", "Nay Zhicka Fitria Purnamadani", 
+                    "Qanita Nauranisa Izaty", "Kayla Ramadhani", "Almeira Noyanura A.", 
+                    "Angeline Albania K.", "Ilma Ummu Sofia", "Kanya Prada Prameswari", 
+                    "Dinda Jelita T. R", "Sukanya Noreen T.", "Almira Chintya N.", 
+                    "Zahwa Azzahra", "Nathania Fitri N.", "Sabrino A. N. A", 
+                    "Wignya W. P", "Violetta Aurella P. P", "Nazelia Putri W.", 
+                    "Adzra Khayrunnisa Labiqa", "Athaya Hasna Khalila", 
+                    "Hamidah Nur Zivanna Hakim", "Septi Arum C.", "Essa Firssa Larasati", 
+                    "Bunga Maharani"
+                ];
+                document.write(anggota.map((nama, i) => `
+                    <tr>
+                        <td>${i + 1}</td>
+                        <td>${nama}</td>
+                    </tr>
+                `).join(''));
+            </script>
+        </table>
+    </div>
+    <div class="footer">
+        &copy; 2024 Pramuka Cakrawardaya. All rights reserved.
+    </div>
+</body>
+</html>
